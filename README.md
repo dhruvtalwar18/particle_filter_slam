@@ -64,8 +64,8 @@ Texture Mapping: This script runs and saves the texture map of the floor from th
 python3 final_particle_filter_texture_map.py
 ```
 
-<b> Note all scripts need a path to the dataset to run</b>
-The dataset can be downloaded from https://drive.google.com/drive/folders/1Fn7YF4u-0bwKGcdKhu76zGfcxNydyXdr?usp=drive_link
-The dataset for encoder, LiDAR, and IMU is available in the data folder.
+<b> Note all scripts need a path to the dataset to run</b> <br>
+The dataset can be downloaded from -- https://drive.google.com/drive/folders/1Fn7YF4u-0bwKGcdKhu76zGfcxNydyXdr?usp=drive_link <br>
+The dataset for encoder, LiDAR, and IMU is available in the data folder. <br>
 Download the dataRGBD dataset from the provided link and copy the "data" directory to your desired location.
 
