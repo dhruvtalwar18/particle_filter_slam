@@ -41,3 +41,31 @@ An RGBD camera captures RGB images and disparity images. The depth camera is loc
 </p>
 
 
+<h1><b> Code Implementation </b></h1>
+
+Clone the repository and install the requirements
+```
+gitclone https://github.com/dhruvtalwar18/particle_filter_slam
+cd particle_filter_slam
+python3 -m venv venv
+pip3 install -r requirements.txt
+```
+There are codes for 3 different tasks
+Trajectory generation: This script runs and saves the trajectory of the robot.
+```
+python3 trajectory_predict_dead_reckoning.py
+```
+Map generation: This script runs and saves the occupancy grid from the dataset given
+```
+python3 single_map_generation.py
+```
+Texture Mapping: This script runs and saves the texture map of the floor from the dataset given
+```
+python3 final_particle_filter_texture_map.py
+```
+
+<b> Note all scripts need a path to the dataset to run</b>
+The dataset can be downloaded from https://drive.google.com/drive/folders/1Fn7YF4u-0bwKGcdKhu76zGfcxNydyXdr?usp=drive_link
+The dataset for encoder, LiDAR, and IMU is available in the data folder.
+Download the dataRGBD dataset from the provided link and copy the "data" directory to your desired location.
+
