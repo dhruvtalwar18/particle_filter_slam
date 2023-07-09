@@ -9,7 +9,19 @@ The objective of this project is to implement Simultaneous Localization and Mapp
 <h1><b> 2D Occupancy Grid </b></h1>
 
 <p align="center">
-  <img src="https://github.com/dhruvtalwar18/particle_filter_slam/blob/main/Results/Occupancy_grid/Trajectory_map_generation_dataset_20.gif" title="Additional Image" style="width: 400px; height: 400px;">
+  <img src="https://github.com/dhruvtalwar18/particle_filter_slam/blob/main/Results/Occupancy_grid/Trajectory_map_generation_dataset_20.gif" title="Occupancy Grid Dataset20" style="width: 400px; height: 400px;">
   <br>
-  <p align="center">Fig.7 Additional Image</p>
+  <p align="center">Fig.1 Occupancy Grid Dataset20</p>
 </p>
+
+
+<h1><b> 2-D texture map of the floor </b></h1>
+
+<p align="center">
+  <img src="https://github.com/dhruvtalwar18/particle_filter_slam/blob/main/Results/Texture_map/Texture_map_time_generation.gif" title="Texture Map Dataset20" style="width: 400px; height: 400px;">
+  <br>
+  <p align="center">Fig.2 Texture Map Dataset 20</p>
+</p>
+
+
+
